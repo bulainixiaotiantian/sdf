@@ -1,0 +1,23 @@
+
+@charset "utf-8";
+.con_main .title{
+	font: 0.53rem/1.25rem "微软雅黑";
+	text-align: center;
+	color: #595757;
+}
+.con_main .text_message{
+	font: 0.22rem/0.5rem "微软雅黑";
+	color: #555;
+	background: #e3e1e1;
+	text-align: center;
+}
+.article{
+	font: 0.25rem/0.5rem "微软雅黑"! important ;
+    padding: 0.4rem 0.4rem 0;
+    text-indent: 2em;
+    line-height:0.5rem ! important ;
+	text-align:justify;	
+}
+.article img{
+	float: left;
+}

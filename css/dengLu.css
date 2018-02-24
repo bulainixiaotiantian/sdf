@@ -1,0 +1,44 @@
+@charset "utf-8";
+body{
+	background: url(../images/dengLu.jpg) no-repeat;
+	background-size:cover;
+}
+.title{
+	font: 0.5rem/2.53rem "微软雅黑";
+	color:#fa1e1e;
+	text-align: center;
+	text-shadow:4px 2px 1px rgba(129,123,123,0.35);
+}
+.account,.password{
+	padding-left: 0.42rem;
+	border-radius: 18px 18px 0 0;
+	font-size: 0.3rem;
+	height: 1.12rem;
+	width: 6.41rem;
+	margin: 0 auto;
+	display: block;
+	outline: none;
+}
+.password{
+	border-radius:0 0 18px 18px ;
+	border-top: 1px solid #c7c6cb;
+	display: block;
+	
+}
+button{
+	font: 0.3rem/0.87rem "微软雅黑";
+    height: 0.87rem;
+    width: 6.83rem;
+    margin: 0.42rem auto 0;
+    border: none;
+    display: block;
+    background: #fff;
+    border-radius:25px ;
+    color: #c00031;
+}
+form span{
+	font: 0.27rem/0.64rem "微软雅黑";
+	color: #c00031;
+	float: right;
+	padding-right: 0.47rem;
+}

@@ -1,0 +1,66 @@
+
+@charset "utf-8";
+.header{
+	height: 2.85rem;
+	background-image: url(../images/index_banner.png);
+	background-size:7.5rem 2.85rem;
+	position: relative;
+}
+.header span{
+	width: 1.74rem;
+	height: 0.66rem;
+	position: absolute;
+	bottom: 0.19rem;
+	background:#f24a03;
+	left: 50%;
+	margin-left: -0.87rem;
+	color: #fff;
+	font: 0.3rem/0.66rem "黑体";
+	text-align: center;
+}
+.introduce{
+	text-align: center;
+	height: 3.95rem;
+	position: relative;
+	background:url(../images/small_phone.png)  0.85rem 0.21rem  no-repeat ;
+	background-size:1.47rem 2.99rem ;
+	
+}
+.intro_text{
+	width: 4.11rem;
+	float: right;
+	padding:0 0.39rem;
+	margin-top: 0.27rem;
+}
+.intro_text h3{
+	font: 0.26rem/0.68rem "微软雅黑";
+	font-weight: bold;
+}
+.intro_text p{
+	text-align: justify;
+	font: 0.18rem/0.38rem "微软雅黑";
+	
+	margin-bottom: 0.37rem;
+}
+.intro_text  span{
+	width: 1.34rem;
+	background: #f24a03;
+	font: 0.23rem/0.5rem "微软雅黑";
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+}
+.Details{
+	background:url(../images/Details.png) no-repeat;
+	background-size:7.5rem 6.5rem ;
+	height: 6.5rem;
+}
+.Details p{
+	font: 0.24rem/0.38rem "微软雅黑";
+	padding:1.02rem 0 0 0.17rem;
+	float: left;
+	color: #FFF;
+	width: 3.98rem;
+
+	
+}

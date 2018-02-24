@@ -1,0 +1,128 @@
+
+@charset "utf-8";
+h1,h2,h3,h4,h5,h6,p,body,textarea,input,ul,ol,li,dd,dt,dl{
+	margin:0;
+	padding:0;
+}
+ol,ul{
+	list-style:none;
+}
+img,input{
+	border:none;
+}
+a{
+	text-decoration:none;color:inherit;
+	-webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+i{
+	font-style:normal;
+}
+body{
+	font-family:arial ,"微软雅黑", "宋体";
+}
+html{
+	font-size:100px;
+}
+.clearfix:after{
+	content: "200B";
+	display:block;
+	height:0;
+	font-size:0;
+	clear:both;
+}
+.clearfix{
+	*zoom:1;
+}
+img{
+	width:100%;
+}
+.justify{
+	text-align: justify;
+	text-indent: 2em;
+}
+
+header{
+	height: 0.79rem;
+	background: #3A3A3A;
+	position: relative;
+	padding-top: 0.25rem;
+}
+header .aside{
+	width: 3.06rem;
+	height: 2.32rem;
+	position: absolute;
+	right: 0;
+	display: none;
+	top:1.04rem;
+	background: rgba(58,58,58,0.9);
+}
+header .aside ul{
+	padding-top: 0.55rem;
+}
+header .aside ul li{
+	font: 0.33rem/0.8rem "微软雅黑";
+	color: #fff;
+	text-align: center;
+}
+header .nav_title{
+	width: 3.4rem;
+	font: 0.41rem/1.04rem "微软雅黑";
+	position: absolute;
+	left: 50%;
+	margin-left: -1.7rem;
+	top: 0;
+	color: #fff;
+	text-align: center;
+}
+header .white{
+	background: rgba(255,255,255,0.4);
+}
+
+header .back{
+	width: 0.26rem;
+	float: left;
+	height: 0.46rem;
+	background:url(../images/back_bj.png) no-repeat;
+	background-size: 0.26rem 0.46rem;
+	margin-left: 0.21rem;
+}
+header .aside_icon{
+	width: 0.52rem;
+	height: 0.55rem;
+	background:url(../images/aside_bj.png) no-repeat;
+	background-size: 0.52rem 0.55rem;
+	float: right;
+	margin-right: 0.28rem;
+}
+.banner{
+	height: 2.85rem;
+	background:url(../images/index_banner.png) no-repeat;
+	background-size: 7.5rem 2.85rem;
+}
+footer{
+	background: url(../images/footer_bj.png) no-repeat;
+	background-size: 7.5rem 1.8rem;
+	height: 1.8rem;
+	width: 100%;
+
+}
+
+
+.news_main .type{
+	width: 2.66rem ;
+	position: absolute;
+	height: 0.79rem;
+    z-index: -1;
+    float: left;
+	background: url(../images/news_type.jpg) no-repeat;
+	background-size: 2.66rem 0.79rem;
+}
+.news_main .type span{
+	color: #fff;
+	font: 0.21rem/0.41rem "微软雅黑";
+	display: block;
+	text-align: right;
+	padding-right: 0.15rem;
+}

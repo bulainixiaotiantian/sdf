@@ -1,0 +1,76 @@
+@charset "utf-8";
+.keShi_introduce{
+	min-height: 1.45rem;
+	background: url(../images/hongQi.png) no-repeat;
+	border-bottom: 1px dashed #eb311f;
+	margin-bottom: 0.1rem;
+	background-size: 1.43rem 0.73rem;
+	padding-bottom: 0.2rem;
+}
+.keShi_introduce .title{
+	font: 0.36rem/0.64rem "微软雅黑";
+	font-weight: bold;
+	padding-top: 0.1rem;
+	text-align: center;
+}
+.keShi_introduce .content{
+	font: 0.18rem/0.38rem "微软雅黑" !important;
+	padding: 0 0.67rem;
+}
+.keShi_staff {
+	
+}
+.staff_message{
+	width: 6.62rem;
+	margin: 0 auto;
+	padding-top: 0.97rem;
+	font: 0.19rem/0.5rem "微软雅黑";
+}
+.staff_message li{
+	padding-left: 0.09rem;
+	border-bottom: 1px dashed #eb311f;
+	color: #b72e22;
+	text-indent: 2em;
+	height: 0.5rem;
+	
+}
+.staff_message li:nth-of-type(1){
+	text-indent: 0em;
+}
+.message_con{
+	color: #585858;
+	width: 0.89rem;
+	display:inline-block;
+	text-indent: 0em;
+	float: left;
+}
+.state{
+	font: 0.21rem/0.3rem "微软雅黑";
+	width: 0.96rem;
+	height: 0.3rem;
+	background: #ce2623;
+	display:inline-block;
+	color: #fff;
+	text-align: center;
+	text-indent: 0em;
+}
+.message_work,.work_state{
+	text-indent: 0;
+    display: inline-block;
+    width: 5.12rem;
+    
+    float: left;
+}
+.work_state{
+	 color: #fb2c2c;
+}
+.message_work{
+	 color: #585858;
+}
+.message_name{
+	  display: inline-block;
+	  float: left;
+}
+.more_line_h{
+	line-height:;
+}

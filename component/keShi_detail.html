@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta  charset="UTF-8"  name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+		<title>办理流程</title>
+		<link href="../css/style.css" rel="stylesheet" type="text/css">
+		<link href="../css/keShi_detail.css" rel="stylesheet" type="text/css">
+		<script src="../js/jquery.min.js" type="text/javascript"></script>
+		<script src="../js/index.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<header>
+			<div class="nav">
+				<a href="javascript:history.go(-1)"><div class="back"></div></a>
+				<div class="nav_title">在岗查询服务平台</div>
+				<div class="aside_icon"></div>
+			</div>
+			<div class="aside">
+				<ul>
+					<li class="white"><a href="pingtai_index.html">平台首页</a></li>
+					<li><a href="dengLu.html">个人中心</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="banner"></div>
+		<div class="detail_main">
+			<div class="keShi_introduce">
+				<div class="title">人社局信访工作科介绍</div>
+				<div class="content justify">
+				<p>
+    <span style="font-family: 微软雅黑; font-size: 14px;">负责机关文电、会务、机要、档案、信息、财务、政务公开、督办查办和安全保密工作；承担局属国有资产管理和审计工作；负责信访工作。</span>
+</p>
+<p>
+    <span style="font-size: 14px;"><span style="font-family: 微软雅黑;">办公地点：濮阳市人民路51号市政府四楼410房间&nbsp;</span><br/><span style="font-family: 微软雅黑;">电子邮箱：pyrsxx@163.com&nbsp;</span><br/><span style="font-family: 微软雅黑;">办公电话:0393-6665602</span></span>
+</p>
+				</div>
+			</div>
+			<div class="keShi_staff news_main">
+				<div class="type"><span>科室人员</span></div>
+				<div class="staff_message">
+					<ul>
+						<li><span class="message_name">值班人员姓名：</span><span class="message_con">李晓</span><span class="state">在岗</span></li>
+						<li><span class="message_name">工作状态：</span><span class="work_state">在岗在岗在岗在岗在岗在岗在岗在岗在岗在岗在岗在岗在岗在岗</span></li>
+						<li><span class="message_name">负责工作：</span><span class="message_work">负责信作负责工作负责信访工作负责信访工作负责信访工作负责信访工作负责信访工作负责信访工作负责信访工作负责信访工作负责信访工作负责信
+							
+							信访工作负责信访工作负责信访工作</span></li>
+					</ul>
+					<ul>
+						<li><span class="message_name">值班人员姓名：</span><span class="message_con">李晓</span><span class="state">在岗</span></li>
+						<li><span class="message_name">工作状态：</span><span class="work_state">访工作负责信访工作负责信访工作负责信访工作负责信访工作负责信访工作负责信访工作负责信
+							访工作负责信访工作负责信访工作
+							信访工作负责信访工作负责信访工作</span></li>
+						<li><span class="message_name">负责工作：</span><span class="message_work">访工作负责信访工作负责信访工作负责信访工作负责信访工作负责信访工作负责信访工作负责信
+							信访工作负责信访工作负责信访工作</span></li>
+					
+					</ul>
+				</div>
+			</div>
+		</div>	
+		<footer></footer>
+		<script>
+			$(".news_list li:even").addClass("gray");
+			more_line($(".staff_message .message_work"));
+			more_line($(".staff_message .work_state"));
+			function more_line(selector){
+				selector.each(function(){
+				if($(this).text().length>=23){
+					$(this).parent().css("height",$(this).height()-$(this).height()/2+"px");
+				    }
+				})
+			};
+			
+		</script>
+	</body>
+</html>

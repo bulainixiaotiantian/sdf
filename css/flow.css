@@ -1,0 +1,25 @@
+@charset "utf-8";
+.news_list{
+	padding: 0.94rem 0;
+}
+.news_list li{
+	padding: 0 0.31rem;
+	height: 0.75rem;
+}
+.news_list li p{
+	font: 0.24rem/0.75rem "微软雅黑";
+	width: 5.9rem;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.news_list li span{
+	color:#ff0000;
+	font-size:0.22rem ;
+	float: left;
+    line-height: 0.75rem;
+}
+.gray{
+	background: #e8e8e8;
+}
